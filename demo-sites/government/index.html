@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="aegis-demo" content="1">
+<title>Application Dashboard</title><link rel="stylesheet" href="../assets/style.css"></head>
+<body>
+<div class="stripe"></div>
+<header class="top"><div class="in">
+  <span class="brand">Nagrik Seva Portal <small style="font-weight:400;font-size:12px">(demo, fictional)</small></span>
+  <a href="#home">Home</a><a href="#applications">My Applications</a><a href="#documents">Documents</a><a href="#support">Support</a>
+  <button id="btn-logout" type="button">Logout</button>
+</div></header>
+<main id="home">
+  <h1>Application Dashboard</h1>
+  <p class="welcome">Welcome back, Shriram Vaidya</p>
+
+  <section class="card" id="applications">
+    <h2>Application summary</h2>
+    <dl>
+      <div><dt>Name</dt><dd>Shriram Vaidya</dd></div>
+      <div><dt>Email</dt><dd>shriram@example.com</dd></div>
+      <div><dt>Phone</dt><dd>9876543210</dd></div>
+      <div><dt>Address</dt><dd>123 Example Street, Pune 411001</dd></div>
+      <div><dt>Account Number</dt><dd>123456789012</dd></div>
+      <div><dt>Application ID</dt><dd>APP-2026-001</dd></div>
+      <div><dt>Scheme</dt><dd>Student Digital Skills Grant</dd></div>
+      <div><dt>Status</dt><dd><span class="status">Approved</span></dd></div>
+    </dl>
+    <div class="actions">
+      <button class="btn" id="btn-details" type="button">View Details</button>
+      <button class="btn alt" id="btn-txn" type="button">Transaction History</button>
+      <button class="btn alt" id="btn-download" type="button">Download</button>
+    </div>
+  </section>
+
+  <section class="card" id="details-panel" hidden>
+    <h2>Application Details</h2>
+    <p>Your grant application has cleared every verification stage.</p>
+    <ol class="timeline"><li>Submitted on 02 Jan 2026</li><li>Documents verified on 09 Jan 2026</li><li>Approved on 20 Jan 2026</li></ol>
+  </section>
+
+  <section class="card" id="txn-panel" hidden>
+    <h2>Transactions</h2>
+    <table><thead><tr><th>Date</th><th>Description</th><th>Amount</th><th>Status</th></tr></thead><tbody>
+      <tr><td>2026-01-22</td><td>Grant disbursement</td><td>₹25,000.00</td><td>Credited</td></tr>
+      <tr><td>2026-01-05</td><td>Application fee</td><td>₹100.00</td><td>Paid</td></tr>
+    </tbody></table>
+  </section>
+
+  <section class="card" id="documents">
+    <h2>Identity documents</h2>
+    <dl>
+      <div><dt>PAN</dt><dd>ABCDE1234F</dd></div>
+      <div><dt>Aadhaar</dt><dd>2345 6789 0123</dd></div>
+      <div><dt>Date of Birth</dt><dd>14/03/2001</dd></div>
+    </dl>
+  </section>
+
+  <section class="card">
+    <h2>Update contact details</h2>
+    <form class="grid" onsubmit="return false">
+      <div><label for="f-email">Email address</label><input id="f-email" name="email" type="email" value="shriram@example.com" autocomplete="email"></div>
+      <div><label for="f-phone">Mobile number</label><input id="f-phone" name="phone" type="tel" value="9876543210"></div>
+      <div><label for="f-pass">Portal password</label><input id="f-pass" name="password" type="password" value="Demo@Pass123"></div>
+      <div><label for="f-search">Search services</label><input id="f-search" name="q" type="text" placeholder="e.g. income certificate"></div>
+      <div><label for="f-cat">Service category</label><select id="f-cat" name="cat"><option>All services</option><option>Education</option><option>Health</option><option>Transport</option></select></div>
+    </form>
+  </section>
+
+  <section class="card" id="uploads">
+    <h2>Uploaded documents</h2>
+    <div class="imgs">
+      <figure><img id="id-img" src="../assets/id-card.png" width="420" alt="Uploaded identity document"><figcaption>Identity card scan (image)</figcaption></figure>
+      <figure><canvas id="slip" width="520" height="190" aria-label="Payment slip preview"></canvas><figcaption>Payment slip preview (canvas)</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="card" id="support">
+    <h2>Notices</h2>
+    <div class="notice"><b>Grant renewal window opens 1 March.</b> Keep your documents up to date.</div>
+    <div class="notice"><b>Helpline hours:</b> weekdays, 9 am to 6 pm.</div>
+    <div class="notice"><b>Scheduled maintenance</b> on the last Sunday of each month.</div>
+    <div class="spacer"></div>
+    <div class="notice"><b>Feedback:</b> Tell us how we can improve this portal.</div>
+  </section>
+</main>
+<footer>Nagrik Seva Portal — fictional demo for AEGIS. All data is synthetic.</footer>
+<script>
+  const $=id=>document.getElementById(id);
+  function toast(t){const d=document.createElement('div');d.className='toast';d.textContent=t;document.body.appendChild(d);setTimeout(()=>d.remove(),2600)}
+  $('btn-details').onclick=()=>{$('details-panel').hidden=false;$('txn-panel').hidden=true;document.title='Application Details';document.body.dataset.view='details'};
+  $('btn-txn').onclick=()=>{$('txn-panel').hidden=false;$('details-panel').hidden=true;document.title='Transaction History';document.body.dataset.view='transactions'};
+  $('btn-download').onclick=()=>toast('Download started (demo)');
+  $('btn-logout').onclick=()=>toast('Logged out (demo)');
+  (function(){const c=$('slip'),x=c.getContext&&c.getContext('2d');if(!x)return;x.fillStyle='#fff';x.fillRect(0,0,520,190);x.fillStyle='#000';
+    x.font='bold 22px Arial';x.fillText('PAYMENT SLIP (SYNTHETIC)',20,36);x.font='24px Arial';
+    x.fillText('Cardholder: Shriram Vaidya',20,84);x.fillText('Card: 4111 1111 1111 1111',20,124);x.fillText('Mobile: 9876543210',20,164);})();
+</script>
+</body></html>

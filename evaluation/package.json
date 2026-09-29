@@ -1,0 +1,11 @@
+{
+  "name": "aegis-evaluation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dataset": "python3 scripts/make_dataset.py",
+    "eval": "tsx scripts/run_eval.ts",
+    "e2e": "python3 scripts/browser_e2e.py"
+  }
+}

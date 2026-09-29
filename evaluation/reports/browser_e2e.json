@@ -1,0 +1,347 @@
+{
+  "checks": [
+    {
+      "name": "task1 completed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "task1 server chose View Details",
+      "ok": true,
+      "detail": "{\"action\": \"click\", \"element_id\": \"btn_view_details\", \"reason\": \"'View Details' best matches the task keywords. [DEV/DEMO FALLBACK (deterministic keyword matcher, not an LLM)]\", \"confidence\": 0.98}"
+    },
+    {
+      "name": "task1 browser actually opened details panel",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "task1 raw_pii_sent == 0 and network SANITIZED",
+      "ok": true,
+      "detail": "{\"name\": 4, \"email\": 3, \"phone\": 3, \"address\": 1, \"account\": 1, \"application_id\": 1, \"pan\": 2, \"aadhaar\": 2, \"dob\": 2, \"password\": 1, \"card\": 1}"
+    },
+    {
+      "name": "all expected PII types detected in real Chrome",
+      "ok": true,
+      "detail": "{\"name\": 4, \"email\": 3, \"phone\": 3, \"address\": 1, \"account\": 1, \"application_id\": 1, \"pan\": 2, \"aadhaar\": 2, \"dob\": 2, \"password\": 1, \"card\": 1}"
+    },
+    {
+      "name": "a real request reached the server",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "outgoing network body contains none of the synthetic raw PII",
+      "ok": true,
+      "detail": "5464 bytes; leaked=0"
+    },
+    {
+      "name": "outgoing body contains [REDACTED] markers",
+      "ok": true,
+      "detail": "18"
+    },
+    {
+      "name": "non-sensitive context preserved (status, buttons)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "outgoing body has no pixel data",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "visual-only PII: OCR ran locally on image + canvas",
+      "ok": true,
+      "detail": "[{\"id\": \"img\", \"ocr_status\": \"ok\", \"ocr_regions_redacted\": 5, \"flags\": [\"id_document_like\", \"sensitive_text_in_image\"]}, {\"id\": \"img_2\", \"ocr_status\": \"ok\", \"ocr_regions_redacted\": 3, \"flags\": [\"id_document_like\", \"sensitive_text_in_image\"]}]"
+    },
+    {
+      "name": "visual-only PII: OCR text in payload is redacted",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "task2 click Transaction History executed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "task3 scroll executed in the page",
+      "ok": true,
+      "detail": "0->600"
+    },
+    {
+      "name": "hostile action blocked by local validator",
+      "ok": true,
+      "detail": "forbidden_field"
+    },
+    {
+      "name": "click on password field blocked",
+      "ok": true,
+      "detail": "not_clickable"
+    },
+    {
+      "name": "server unavailable -> fail closed, no fallback",
+      "ok": true,
+      "detail": "server_unavailable"
+    },
+    {
+      "name": "dashboard shows RAW PII TRANSMITTED: 0",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "runs": [
+    {
+      "task": "Open my application details.",
+      "status": "completed",
+      "action": {
+        "action": "click",
+        "element_id": "btn_view_details",
+        "reason": "'View Details' best matches the task keywords. [DEV/DEMO FALLBACK (deterministic keyword matcher, not an LLM)]",
+        "confidence": 0.98
+      },
+      "timings": {
+        "dom_scan_ms": 21,
+        "ocr_ms": 1399.4,
+        "detect_ms": 4.3,
+        "redact_ms": 16,
+        "verify_ms": 15.7,
+        "perception_total_ms": 1474.1,
+        "network_ms": 17.9,
+        "server_ai_ms": 0.14,
+        "validate_ms": 9,
+        "exec_ms": 260.1,
+        "total_ms": 1815.4
+      },
+      "privacy": {
+        "sensitive_items": 21,
+        "redacted": 18,
+        "raw_pii_sent": 0,
+        "network": "SANITIZED"
+      },
+      "resources": {
+        "hardware_concurrency": 1,
+        "device_memory_gb": 4,
+        "webgpu_available": false,
+        "js_heap_used_mb": 3.2,
+        "js_heap_delta_mb": 1.6,
+        "face_detector_available": false,
+        "payload_bytes": 5466,
+        "raw_page_bytes": 5976,
+        "ocr_model_size_mb": 6.7,
+        "ocr_engine": "tesseract.js 5.1.1 (WASM, LSTM) + eng best_int"
+      },
+      "validation": {
+        "allowed": true,
+        "action": {
+          "action": "click",
+          "element_id": "btn_view_details",
+          "reason": "'View Details' best matches the task keywords. [DEV/DEMO FALLBACK (deterministic keyword matcher, not an LLM)]",
+          "confidence": 0.98
+        }
+      },
+      "execution": {
+        "executed": true,
+        "detail": "click",
+        "mutations": 4
+      },
+      "error": null
+    },
+    {
+      "task": "Open transaction history.",
+      "status": "completed",
+      "action": {
+        "action": "click",
+        "element_id": "btn_transaction_history",
+        "reason": "'Transaction History' best matches the task keywords. [DEV/DEMO FALLBACK (deterministic keyword matcher, not an LLM)]",
+        "confidence": 0.98
+      },
+      "timings": {
+        "dom_scan_ms": 2.4,
+        "ocr_ms": 0,
+        "detect_ms": 0.9,
+        "redact_ms": 6.2,
+        "verify_ms": 9.1,
+        "perception_total_ms": 31.5,
+        "network_ms": 17.1,
+        "server_ai_ms": 0.16,
+        "validate_ms": 0.2,
+        "exec_ms": 252.1,
+        "total_ms": 320.6
+      },
+      "privacy": {
+        "sensitive_items": 21,
+        "redacted": 18,
+        "raw_pii_sent": 0,
+        "network": "SANITIZED"
+      },
+      "resources": {
+        "hardware_concurrency": 1,
+        "device_memory_gb": 4,
+        "webgpu_available": false,
+        "js_heap_used_mb": 3.2,
+        "js_heap_delta_mb": 0,
+        "face_detector_available": false,
+        "payload_bytes": 5832,
+        "raw_page_bytes": 6029,
+        "ocr_model_size_mb": 6.7,
+        "ocr_engine": "tesseract.js 5.1.1 (WASM, LSTM) + eng best_int"
+      },
+      "validation": {
+        "allowed": true,
+        "action": {
+          "action": "click",
+          "element_id": "btn_transaction_history",
+          "reason": "'Transaction History' best matches the task keywords. [DEV/DEMO FALLBACK (deterministic keyword matcher, not an LLM)]",
+          "confidence": 0.98
+        }
+      },
+      "execution": {
+        "executed": true,
+        "detail": "click",
+        "mutations": 4
+      },
+      "error": null
+    },
+    {
+      "task": "Scroll down.",
+      "status": "completed",
+      "action": {
+        "action": "scroll",
+        "direction": "down",
+        "amount": 600,
+        "reason": "Task asks to scroll down. [DEV/DEMO FALLBACK (deterministic keyword matcher, not an LLM)]",
+        "confidence": 0.9
+      },
+      "timings": {
+        "dom_scan_ms": 2.7,
+        "ocr_ms": 0,
+        "detect_ms": 1.8,
+        "redact_ms": 6.6,
+        "verify_ms": 11.8,
+        "perception_total_ms": 32.7,
+        "network_ms": 17.3,
+        "server_ai_ms": 0.06,
+        "validate_ms": 0,
+        "exec_ms": 120.4,
+        "total_ms": 188.9
+      },
+      "privacy": {
+        "sensitive_items": 21,
+        "redacted": 18,
+        "raw_pii_sent": 0,
+        "network": "SANITIZED"
+      },
+      "resources": {
+        "hardware_concurrency": 1,
+        "device_memory_gb": 4,
+        "webgpu_available": false,
+        "js_heap_used_mb": 3.7,
+        "js_heap_delta_mb": 0,
+        "face_detector_available": false,
+        "payload_bytes": 6129,
+        "raw_page_bytes": 6079,
+        "ocr_model_size_mb": 6.7,
+        "ocr_engine": "tesseract.js 5.1.1 (WASM, LSTM) + eng best_int"
+      },
+      "validation": {
+        "allowed": true,
+        "action": {
+          "action": "scroll",
+          "direction": "down",
+          "amount": 600,
+          "reason": "Task asks to scroll down. [DEV/DEMO FALLBACK (deterministic keyword matcher, not an LLM)]",
+          "confidence": 0.9
+        }
+      },
+      "execution": {
+        "executed": true,
+        "detail": "scroll down",
+        "scroll_delta": 600,
+        "mutations": 0
+      },
+      "error": null
+    },
+    {
+      "task": "Open my application details",
+      "status": "error",
+      "action": null,
+      "timings": {
+        "dom_scan_ms": 0,
+        "ocr_ms": 0,
+        "detect_ms": 0,
+        "redact_ms": 0,
+        "verify_ms": 0,
+        "perception_total_ms": 0,
+        "total_ms": 53.6
+      },
+      "privacy": {
+        "sensitive_items": 21,
+        "redacted": 18,
+        "raw_pii_sent": 0,
+        "network": "NOT_SENT"
+      },
+      "resources": null,
+      "validation": null,
+      "execution": null,
+      "error": "server_unavailable"
+    },
+    {
+      "task": "Open my application details",
+      "status": "completed",
+      "action": {
+        "action": "click",
+        "element_id": "btn_view_details",
+        "reason": "'View Details' best matches the task keywords. [DEV/DEMO FALLBACK (deterministic keyword matcher, not an LLM)]",
+        "confidence": 0.98
+      },
+      "timings": {
+        "dom_scan_ms": 2.3,
+        "ocr_ms": 0,
+        "detect_ms": 10,
+        "redact_ms": 6.9,
+        "verify_ms": 6.6,
+        "perception_total_ms": 34.6,
+        "network_ms": 10.5,
+        "server_ai_ms": 0.13,
+        "validate_ms": 0.1,
+        "exec_ms": 251.7,
+        "total_ms": 310.5
+      },
+      "privacy": {
+        "sensitive_items": 21,
+        "redacted": 18,
+        "raw_pii_sent": 0,
+        "network": "SANITIZED"
+      },
+      "resources": {
+        "hardware_concurrency": 1,
+        "device_memory_gb": 4,
+        "webgpu_available": false,
+        "js_heap_used_mb": 3.2,
+        "js_heap_delta_mb": 0,
+        "face_detector_available": false,
+        "payload_bytes": 6150,
+        "raw_page_bytes": 6043,
+        "ocr_model_size_mb": 6.7,
+        "ocr_engine": "tesseract.js 5.1.1 (WASM, LSTM) + eng best_int"
+      },
+      "validation": {
+        "allowed": true,
+        "action": {
+          "action": "click",
+          "element_id": "btn_view_details",
+          "reason": "'View Details' best matches the task keywords. [DEV/DEMO FALLBACK (deterministic keyword matcher, not an LLM)]",
+          "confidence": 0.98
+        }
+      },
+      "execution": {
+        "executed": true,
+        "detail": "click",
+        "mutations": 4
+      },
+      "error": null
+    }
+  ]
+}

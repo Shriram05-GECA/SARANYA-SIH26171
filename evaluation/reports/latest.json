@@ -1,0 +1,143 @@
+{
+  "generated_at": "2026-09-29 16:24:14 UTC",
+  "environment": {
+    "node": "v24.19.0",
+    "cpu": "AMD Ryzen 7 7445HS w/ Radeon 740M Graphics     ",
+    "cores": 12,
+    "note": "DOM metrics: Node + jsdom (layout disabled). OCR: real Tesseract.js WASM engine in Node. Not a browser benchmark; see browser_e2e.json for in-Chrome timings."
+  },
+  "model_size_mb": {
+    "ocr_language_data": 2.816
+  },
+  "definitions": {
+    "precision": "TP/(TP+FP). TP = ground-truth sensitive value absent from the outgoing payload; FP = non-sensitive ground-truth text that was lost/redacted.",
+    "recall": "TP/(TP+FN). FN = ground-truth sensitive value still present in the outgoing payload.",
+    "redaction_precision": "Share of ground-truth non-sensitive text (items / characters) that survives intact in the sanitized payload.",
+    "context_accuracy": "Share of expected buttons/links/headings represented with correct type and text in the sanitized context."
+  },
+  "dom": {
+    "pages": 40,
+    "sensitive_total": 317,
+    "tp": 310,
+    "fn": 7,
+    "fp_items": 3,
+    "precision": 0.99,
+    "recall": 0.978,
+    "f1": 0.984,
+    "redaction_precision_items": 0.991,
+    "redaction_precision_chars": 0.992,
+    "context_accuracy": 1,
+    "context_precision": 1,
+    "firewall_blocks": 0,
+    "latency_ms": {
+      "mean": 55.512,
+      "p50": 54.773,
+      "p95": 105.547,
+      "max": 121.83
+    },
+    "by_type": {
+      "application_id": {
+        "tp": 23,
+        "fn": 0
+      },
+      "name": {
+        "tp": 49,
+        "fn": 5
+      },
+      "address": {
+        "tp": 25,
+        "fn": 0
+      },
+      "phone": {
+        "tp": 28,
+        "fn": 0
+      },
+      "aadhaar": {
+        "tp": 25,
+        "fn": 0
+      },
+      "dob": {
+        "tp": 29,
+        "fn": 0
+      },
+      "account": {
+        "tp": 27,
+        "fn": 0
+      },
+      "pan": {
+        "tp": 24,
+        "fn": 0
+      },
+      "card": {
+        "tp": 27,
+        "fn": 0
+      },
+      "ifsc": {
+        "tp": 24,
+        "fn": 0
+      },
+      "email": {
+        "tp": 29,
+        "fn": 0
+      },
+      "passport": {
+        "tp": 0,
+        "fn": 2
+      }
+    },
+    "misses": [
+      {
+        "page": "page_10.html",
+        "type": "name",
+        "hard": "prose"
+      },
+      {
+        "page": "page_15.html",
+        "type": "passport",
+        "hard": "passport"
+      },
+      {
+        "page": "page_20.html",
+        "type": "name",
+        "hard": "nominee"
+      },
+      {
+        "page": "page_25.html",
+        "type": "name",
+        "hard": "prose"
+      },
+      {
+        "page": "page_30.html",
+        "type": "name",
+        "hard": "prose"
+      },
+      {
+        "page": "page_35.html",
+        "type": "passport",
+        "hard": "passport"
+      },
+      {
+        "page": "page_40.html",
+        "type": "name",
+        "hard": "prose"
+      }
+    ],
+    "node_heap_delta_mb": 94.402,
+    "node_cpu_ms": 3907
+  },
+  "visual": {
+    "images": 12,
+    "pii_total": 54,
+    "tp": 54,
+    "fn": 0,
+    "fp_lines": 0,
+    "keep_lines_total": 24,
+    "precision": 1,
+    "recall": 1,
+    "f1": 1,
+    "ocr_ms_mean": 285.462,
+    "ocr_ms_p95": 488.425,
+    "engine_init_ms": 450.271,
+    "missed": []
+  }
+}

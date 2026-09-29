@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect x="6" y="6" width="116" height="116" rx="24" fill="#0b121c"/>
+  <path d="M6 30 h116 v4 H6z" fill="#0e7490" opacity="0.35"/>
+  <rect x="6" y="32" width="5" height="70" fill="#22d3ee" opacity="0.85"/>
+  <text x="64" y="86" text-anchor="middle" font-family="system-ui,Segoe UI,Arial,sans-serif"
+        font-weight="700" font-size="72" fill="#a5f3fc">S</text>
+</svg>

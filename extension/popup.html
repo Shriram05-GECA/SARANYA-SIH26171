@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SARANYA</title>
+  <link rel="stylesheet" href="ui.css">
+</head>
+<body class="popup-body">
+  <div class="popup">
+    <header class="popup-hd">
+      <div class="popup-brand">
+        <img class="popup-logo" src="icons/48.png" width="28" height="28" alt="">
+        <div>
+          <div class="popup-name">SARANYA</div>
+          <div class="popup-sub">Privacy-Enforcing Browser Agent</div>
+        </div>
+      </div>
+      <span id="badge" class="badge">● READY</span>
+    </header>
+
+    <div id="status-line" class="status-line ok">● Protection ready</div>
+
+    <dl class="popup-kv" id="kv"></dl>
+
+    <div class="popup-task">
+      <input type="text" id="task" placeholder="Task for this page…">
+      <button type="button" id="run" class="btn-primary">Run</button>
+    </div>
+    <div class="chips" id="chips"></div>
+
+    <div id="msg" class="msg hidden"></div>
+
+    <div class="popup-foot">
+      <label class="chk"><input type="checkbox" id="hl"> Highlight sensitive</label>
+      <button type="button" class="btn-link" id="scan">Scan page</button>
+      <button type="button" class="btn-link" id="dash">Dashboard</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

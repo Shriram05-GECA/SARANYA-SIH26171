@@ -1,0 +1,33 @@
+{
+  "name": "aegis",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "extension",
+    "evaluation"
+  ],
+  "scripts": {
+    "build": "npm run build -w extension",
+    "typecheck": "npm run typecheck -w extension",
+    "test": "npm run test -w extension",
+    "eval": "npm run eval -w evaluation",
+    "e2e": "npm run e2e -w evaluation",
+    "demo": "python3 -m http.server 5500 --directory demo-sites",
+    "server": "cd server && python3 -m uvicorn app.main:app --host 127.0.0.1 --port 8000"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.3.0",
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^26.6.2",
+    "esbuild": "^0.28.2",
+    "jsdom": "^30.1.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.1"
+  },
+  "dependencies": {
+    "@tesseract.js-data/eng": "^1.0.0",
+    "onnxruntime-web": "^1.20.1",
+    "tesseract.js": "^5.1.1"
+  }
+}

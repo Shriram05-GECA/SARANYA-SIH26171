@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SARANYA — Privacy Enforcement Console</title>
+  <link rel="stylesheet" href="ui.css">
+  <link rel="icon" href="icons/32.png" type="image/png">
+</head>
+<body>
+  <div class="wide console">
+    <header class="console-hd">
+      <div class="console-brand">
+        <img src="icons/48.png" width="36" height="36" alt="">
+        <div>
+          <h1>SARANYA</h1>
+          <div class="console-sub">Privacy Enforcement Console</div>
+        </div>
+      </div>
+      <div class="header-actions">
+        <span id="badge" class="badge">● READY</span>
+        <button type="button" class="ghost" id="clear-history">Clear History</button>
+        <button type="button" class="ghost" id="refresh">Refresh</button>
+      </div>
+    </header>
+
+    <div class="row task-bar">
+      <input type="text" id="task" placeholder="Task for the agent (last active tab)">
+      <button type="button" id="run" class="btn-primary">Run</button>
+    </div>
+
+    <nav class="tabs" id="tabs" role="tablist"></nav>
+    <main id="view" class="console-view"></main>
+  </div>
+
+  <dialog id="clear-dlg" class="dlg">
+    <form method="dialog" class="dlg-body">
+      <h3>Clear run history?</h3>
+      <p>Removes stored task history and audit entries from this browser. Does not delete the extension or configuration.</p>
+      <div class="dlg-actions">
+        <button type="button" class="ghost" id="clear-cancel">Cancel</button>
+        <button type="button" class="danger-btn" id="clear-confirm">Clear History</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

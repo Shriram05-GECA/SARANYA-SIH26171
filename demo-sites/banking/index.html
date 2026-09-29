@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="aegis-demo" content="1"><title>Example Bank — Account Overview</title><link rel="stylesheet" href="../assets/style.css"></head>
+<body><div class="stripe"></div>
+<header class="top"><div class="in"><span class="brand">Example Bank <small style="font-weight:400;font-size:12px">(demo)</small></span>
+<a href="#accounts">Accounts</a><a href="#cards">Cards</a><a href="#payments">Payments</a><button id="btn-logout" type="button">Logout</button></div></header>
+<main>
+<h1>Account Overview</h1><p class="welcome">Hello, Shriram Vaidya</p>
+<section class="card" id="accounts"><h2>Savings account</h2>
+<dl><div><dt>Account holder</dt><dd>Shriram Vaidya</dd></div><div><dt>Account Number</dt><dd>9182 7364 5501</dd></div>
+<div><dt>IFSC</dt><dd>EXMP0001234</dd></div><div><dt>Account type</dt><dd>Savings</dd></div><div><dt>Branch</dt><dd>Pune Main</dd></div>
+<div><dt>Registered mobile</dt><dd>+91 98765 43210</dd></div><div><dt>Debit card</dt><dd>4111 1111 1111 1111</dd></div><div><dt>Status</dt><dd><span class="status">Active</span></dd></div></dl>
+<div class="actions"><button class="btn" id="b1" type="button">View Details</button><button class="btn alt" id="b2" type="button">Transaction History</button><button class="btn alt" id="b3" type="button">Download Statement</button></div></section>
+<section class="card" id="txn" hidden><h2>Recent transactions</h2><table><thead><tr><th>Date</th><th>Description</th><th>Amount</th></tr></thead><tbody>
+<tr><td>2026-02-01</td><td>Salary credit</td><td>₹42,000.00</td></tr><tr><td>2026-02-03</td><td>Electricity bill</td><td>₹1,850.00</td></tr></tbody></table></section>
+<section class="card" id="det" hidden><h2>Account details</h2><p>Interest rate 3.0% p.a. Minimum balance ₹1,000.</p></section>
+<section class="card"><h2>Offers</h2><a href="#cards">Card offers for you</a> · <a href="#accounts">Compare account types</a></section>
+<div class="spacer"></div>
+</main><footer>Example Bank — fictional demo. Synthetic data only.</footer>
+<script>const $=id=>document.getElementById(id);
+$('b1').onclick=()=>{$('det').hidden=false;$('txn').hidden=true};$('b2').onclick=()=>{$('txn').hidden=false;$('det').hidden=true};
+$('b3').onclick=()=>{const d=document.createElement('div');d.className='toast';d.textContent='Statement download started (demo)';document.body.appendChild(d)};</script>
+</body></html>

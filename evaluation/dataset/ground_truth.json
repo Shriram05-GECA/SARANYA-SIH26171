@@ -1,0 +1,3309 @@
+{
+ "pages": [
+  {
+   "page": "page_01.html",
+   "style": "inline",
+   "sensitive": [
+    {
+     "value": "APP-2026-408",
+     "type": "application_id"
+    },
+    {
+     "value": "Meera Reddy",
+     "type": "name"
+    },
+    {
+     "value": "835 Temple Road, Nashik 422001",
+     "type": "address"
+    },
+    {
+     "value": "6399869879",
+     "type": "phone"
+    },
+    {
+     "value": "2911 5706 2606",
+     "type": "aadhaar"
+    },
+    {
+     "value": "17/05/1998",
+     "type": "dob"
+    },
+    {
+     "value": "6455681518",
+     "type": "account"
+    },
+    {
+     "value": "TKKQE6062A",
+     "type": "pan"
+    },
+    {
+     "value": "4557 6169 8716 8970",
+     "type": "card"
+    },
+    {
+     "value": "Meera Reddy",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "2026-01-22",
+    "Pune Main",
+    "Savings",
+    "7.5% p.a.",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    }
+   ]
+  },
+  {
+   "page": "page_02.html",
+   "style": "dl",
+   "sensitive": [
+    {
+     "value": "EXMP0162278",
+     "type": "ifsc"
+    },
+    {
+     "value": "18/05/1996",
+     "type": "dob"
+    },
+    {
+     "value": "4701 0798 1933 1909",
+     "type": "card"
+    },
+    {
+     "value": "9663440029",
+     "type": "phone"
+    },
+    {
+     "value": "04571784726714",
+     "type": "account"
+    },
+    {
+     "value": "vikram.menon66@example.org",
+     "type": "email"
+    },
+    {
+     "value": "828 Temple Road, Kochi 682001",
+     "type": "address"
+    }
+   ],
+   "keep": [
+    "₹2,499.00",
+    "Student Digital Skills Grant",
+    "Savings",
+    "Pune Main",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    }
+   ]
+  },
+  {
+   "page": "page_03.html",
+   "style": "dl",
+   "sensitive": [
+    {
+     "value": "9836957931",
+     "type": "account"
+    },
+    {
+     "value": "+91 76016 10550",
+     "type": "phone"
+    },
+    {
+     "value": "TNBGW3840A",
+     "type": "pan"
+    },
+    {
+     "value": "14/09/1998",
+     "type": "dob"
+    },
+    {
+     "value": "4807 3702 8382 2264",
+     "type": "card"
+    },
+    {
+     "value": "586 Station Lane, Mumbai 400001",
+     "type": "address"
+    },
+    {
+     "value": "APP-2026-280",
+     "type": "application_id"
+    },
+    {
+     "value": "EXMP0910212",
+     "type": "ifsc"
+    },
+    {
+     "value": "Divya Kulkarni",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "7.5% p.a.",
+    "₹2,499.00",
+    "2026-01-22",
+    "Pune Main",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    }
+   ]
+  },
+  {
+   "page": "page_04.html",
+   "style": "div",
+   "sensitive": [
+    {
+     "value": "4441 0646 0013 0418",
+     "type": "card"
+    },
+    {
+     "value": "22/09/2003",
+     "type": "dob"
+    },
+    {
+     "value": "Meera Verma",
+     "type": "name"
+    },
+    {
+     "value": "5194 4513 5828",
+     "type": "aadhaar"
+    },
+    {
+     "value": "8682052589",
+     "type": "phone"
+    },
+    {
+     "value": "4162105218",
+     "type": "account"
+    },
+    {
+     "value": "meera.verma73@example.org",
+     "type": "email"
+    },
+    {
+     "value": "Meera Verma",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "Savings",
+    "7.5% p.a.",
+    "Student Digital Skills Grant",
+    "Pune Main",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    }
+   ]
+  },
+  {
+   "page": "page_05.html",
+   "style": "cols",
+   "sensitive": [
+    {
+     "value": "EFTAX9869J",
+     "type": "pan"
+    },
+    {
+     "value": "APP-2026-092",
+     "type": "application_id"
+    },
+    {
+     "value": "EXMP0039855",
+     "type": "ifsc"
+    },
+    {
+     "value": "Sneha Patil",
+     "type": "name"
+    },
+    {
+     "value": "27/03/2002",
+     "type": "dob"
+    },
+    {
+     "value": "4642 3004 8764 5293",
+     "type": "card"
+    },
+    {
+     "value": "sneha.patil17@mail.example.in",
+     "type": "email"
+    },
+    {
+     "value": "Sneha Patil",
+     "type": "name",
+     "prose": true
+    },
+    {
+     "value": "Sneha Reddy",
+     "type": "name",
+     "hard": "prose"
+    }
+   ],
+   "keep": [
+    "Pune Main",
+    "₹2,499.00",
+    "Example Bank",
+    "7.5% p.a.",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    }
+   ]
+  },
+  {
+   "page": "page_06.html",
+   "style": "inline",
+   "sensitive": [
+    {
+     "value": "DCEZN6465J",
+     "type": "pan"
+    },
+    {
+     "value": "APP-2026-765",
+     "type": "application_id"
+    },
+    {
+     "value": "9879432627",
+     "type": "phone"
+    },
+    {
+     "value": "Ishita Gupta",
+     "type": "name"
+    },
+    {
+     "value": "ishita.gupta39@example.org",
+     "type": "email"
+    },
+    {
+     "value": "21/01/2004",
+     "type": "dob"
+    },
+    {
+     "value": "10839490668828",
+     "type": "account"
+    },
+    {
+     "value": "7860 3827 2379",
+     "type": "aadhaar"
+    },
+    {
+     "value": "Ishita Gupta",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "Savings",
+    "₹2,499.00",
+    "Approved",
+    "₹5,00,000.00",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    }
+   ]
+  },
+  {
+   "page": "page_07.html",
+   "style": "cols",
+   "sensitive": [
+    {
+     "value": "85 MG Road, Pune 411001",
+     "type": "address"
+    },
+    {
+     "value": "LFGQH6710F",
+     "type": "pan"
+    },
+    {
+     "value": "9116494157",
+     "type": "phone"
+    },
+    {
+     "value": "meera.reddy75@example.org",
+     "type": "email"
+    },
+    {
+     "value": "APP-2026-862",
+     "type": "application_id"
+    },
+    {
+     "value": "3883 6876 8470",
+     "type": "aadhaar"
+    },
+    {
+     "value": "443256885576",
+     "type": "account"
+    }
+   ],
+   "keep": [
+    "₹5,00,000.00",
+    "Approved",
+    "7.5% p.a.",
+    "2026-01-22",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    }
+   ]
+  },
+  {
+   "page": "page_08.html",
+   "style": "inline",
+   "sensitive": [
+    {
+     "value": "DELHQ4381K",
+     "type": "pan"
+    },
+    {
+     "value": "EXMP0242592",
+     "type": "ifsc"
+    },
+    {
+     "value": "18/12/2001",
+     "type": "dob"
+    },
+    {
+     "value": "4241 9689 8210 4605",
+     "type": "card"
+    },
+    {
+     "value": "8062048425",
+     "type": "phone"
+    },
+    {
+     "value": "652 MG Road, Nashik 422001",
+     "type": "address"
+    },
+    {
+     "value": "8775 1192 1614",
+     "type": "aadhaar"
+    },
+    {
+     "value": "Sneha Gupta",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "2026-01-22",
+    "Example Bank",
+    "Approved",
+    "Pune Main",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    }
+   ]
+  },
+  {
+   "page": "page_09.html",
+   "style": "table",
+   "sensitive": [
+    {
+     "value": "EXMP0764141",
+     "type": "ifsc"
+    },
+    {
+     "value": "18/12/1989",
+     "type": "dob"
+    },
+    {
+     "value": "Siddharth Bose",
+     "type": "name"
+    },
+    {
+     "value": "APP-2026-622",
+     "type": "application_id"
+    },
+    {
+     "value": "9439061884",
+     "type": "phone"
+    },
+    {
+     "value": "3889 6326 9015",
+     "type": "aadhaar"
+    },
+    {
+     "value": "Siddharth Bose",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "₹2,499.00",
+    "7.5% p.a.",
+    "Example Bank",
+    "Pune Main",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    }
+   ]
+  },
+  {
+   "page": "page_10.html",
+   "style": "table",
+   "sensitive": [
+    {
+     "value": "7858176252",
+     "type": "phone"
+    },
+    {
+     "value": "716 Park Avenue, Nashik 422001",
+     "type": "address"
+    },
+    {
+     "value": "2700 2550 6783",
+     "type": "aadhaar"
+    },
+    {
+     "value": "23/11/2004",
+     "type": "dob"
+    },
+    {
+     "value": "4675 3478 9713 3113",
+     "type": "card"
+    },
+    {
+     "value": "Aarav Patil",
+     "type": "name",
+     "prose": true
+    },
+    {
+     "value": "Meera Kulkarni",
+     "type": "name",
+     "hard": "prose"
+    }
+   ],
+   "keep": [
+    "Example Bank",
+    "Student Digital Skills Grant",
+    "₹2,499.00",
+    "7.5% p.a.",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "button",
+     "text": "Apply Filters"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    }
+   ]
+  },
+  {
+   "page": "page_11.html",
+   "style": "table",
+   "sensitive": [
+    {
+     "value": "83 Station Lane, Pune 411001",
+     "type": "address"
+    },
+    {
+     "value": "APP-2026-248",
+     "type": "application_id"
+    },
+    {
+     "value": "AELEA2722G",
+     "type": "pan"
+    },
+    {
+     "value": "7888 2610 5523",
+     "type": "aadhaar"
+    },
+    {
+     "value": "Arjun Iyer",
+     "type": "name"
+    },
+    {
+     "value": "EXMP0723994",
+     "type": "ifsc"
+    },
+    {
+     "value": "arjun.iyer38@example.com",
+     "type": "email"
+    },
+    {
+     "value": "8791697978",
+     "type": "account"
+    },
+    {
+     "value": "Arjun Iyer",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "Savings",
+    "2026-01-22",
+    "₹5,00,000.00",
+    "Pune Main",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "button",
+     "text": "Apply Filters"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    }
+   ]
+  },
+  {
+   "page": "page_12.html",
+   "style": "dl",
+   "sensitive": [
+    {
+     "value": "033042845142",
+     "type": "account"
+    },
+    {
+     "value": "vikram.iyer52@example.com",
+     "type": "email"
+    },
+    {
+     "value": "APP-2026-210",
+     "type": "application_id"
+    },
+    {
+     "value": "+91 84690 59828",
+     "type": "phone"
+    },
+    {
+     "value": "EXMP0677748",
+     "type": "ifsc"
+    },
+    {
+     "value": "BGYWY2895H",
+     "type": "pan"
+    },
+    {
+     "value": "7391 3786 8492",
+     "type": "aadhaar"
+    },
+    {
+     "value": "01/05/2004",
+     "type": "dob"
+    }
+   ],
+   "keep": [
+    "₹2,499.00",
+    "7.5% p.a.",
+    "Pune Main",
+    "Student Digital Skills Grant",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    }
+   ]
+  },
+  {
+   "page": "page_13.html",
+   "style": "div",
+   "sensitive": [
+    {
+     "value": "4519 0431 6349 9920",
+     "type": "card"
+    },
+    {
+     "value": "24/09/1985",
+     "type": "dob"
+    },
+    {
+     "value": "meera.verma96@example.com",
+     "type": "email"
+    },
+    {
+     "value": "963 Station Lane, Kochi 682001",
+     "type": "address"
+    },
+    {
+     "value": "CYRWP6547J",
+     "type": "pan"
+    },
+    {
+     "value": "EXMP0029939",
+     "type": "ifsc"
+    }
+   ],
+   "keep": [
+    "₹2,499.00",
+    "2026-01-22",
+    "Savings",
+    "Approved",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    }
+   ]
+  },
+  {
+   "page": "page_14.html",
+   "style": "div",
+   "sensitive": [
+    {
+     "value": "15/04/1990",
+     "type": "dob"
+    },
+    {
+     "value": "758 Station Lane, Nagpur 440001",
+     "type": "address"
+    },
+    {
+     "value": "452198033463",
+     "type": "account"
+    },
+    {
+     "value": "8260791135",
+     "type": "phone"
+    },
+    {
+     "value": "3647 8274 5872",
+     "type": "aadhaar"
+    }
+   ],
+   "keep": [
+    "Example Bank",
+    "2026-01-22",
+    "₹5,00,000.00",
+    "7.5% p.a.",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    }
+   ]
+  },
+  {
+   "page": "page_15.html",
+   "style": "inline",
+   "sensitive": [
+    {
+     "value": "EXMP0483319",
+     "type": "ifsc"
+    },
+    {
+     "value": "vikram.deshmukh72@mail.example.in",
+     "type": "email"
+    },
+    {
+     "value": "387 Park Avenue, Pune 411001",
+     "type": "address"
+    },
+    {
+     "value": "4361 7958 1635 4013",
+     "type": "card"
+    },
+    {
+     "value": "+91 78849 85568",
+     "type": "phone"
+    },
+    {
+     "value": "Vikram Deshmukh",
+     "type": "name",
+     "prose": true
+    },
+    {
+     "value": "K8412047",
+     "type": "passport",
+     "hard": "passport"
+    }
+   ],
+   "keep": [
+    "7.5% p.a.",
+    "Pune Main",
+    "Example Bank",
+    "₹2,499.00",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    }
+   ]
+  },
+  {
+   "page": "page_16.html",
+   "style": "div",
+   "sensitive": [
+    {
+     "value": "ishita.sharma19@mail.example.in",
+     "type": "email"
+    },
+    {
+     "value": "06/06/2001",
+     "type": "dob"
+    },
+    {
+     "value": "621 Park Avenue, Nashik 422001",
+     "type": "address"
+    },
+    {
+     "value": "Ishita Sharma",
+     "type": "name"
+    },
+    {
+     "value": "EXMP0323972",
+     "type": "ifsc"
+    },
+    {
+     "value": "135161994569",
+     "type": "account"
+    },
+    {
+     "value": "UKHZV9581C",
+     "type": "pan"
+    }
+   ],
+   "keep": [
+    "Savings",
+    "7.5% p.a.",
+    "₹5,00,000.00",
+    "₹2,499.00",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    }
+   ]
+  },
+  {
+   "page": "page_17.html",
+   "style": "table",
+   "sensitive": [
+    {
+     "value": "APP-2026-604",
+     "type": "application_id"
+    },
+    {
+     "value": "Ishita Joshi",
+     "type": "name"
+    },
+    {
+     "value": "646440330132",
+     "type": "account"
+    },
+    {
+     "value": "8709 1379 5816",
+     "type": "aadhaar"
+    },
+    {
+     "value": "+91 89650 56547",
+     "type": "phone"
+    },
+    {
+     "value": "EXMP0038580",
+     "type": "ifsc"
+    },
+    {
+     "value": "813 MG Road, Pune 411001",
+     "type": "address"
+    },
+    {
+     "value": "ishita.joshi70@mail.example.in",
+     "type": "email"
+    },
+    {
+     "value": "Ishita Joshi",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "Example Bank",
+    "Student Digital Skills Grant",
+    "2.4.1",
+    "₹2,499.00",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    }
+   ]
+  },
+  {
+   "page": "page_18.html",
+   "style": "div",
+   "sensitive": [
+    {
+     "value": "neha.gupta25@example.org",
+     "type": "email"
+    },
+    {
+     "value": "07/04/1990",
+     "type": "dob"
+    },
+    {
+     "value": "7041263478",
+     "type": "phone"
+    },
+    {
+     "value": "105914833541",
+     "type": "account"
+    },
+    {
+     "value": "5524 1508 2688",
+     "type": "aadhaar"
+    },
+    {
+     "value": "4785 2223 8416 4979",
+     "type": "card"
+    },
+    {
+     "value": "Neha Gupta",
+     "type": "name"
+    },
+    {
+     "value": "APP-2026-372",
+     "type": "application_id"
+    }
+   ],
+   "keep": [
+    "2026-01-22",
+    "Approved",
+    "Student Digital Skills Grant",
+    "Savings",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Apply Filters"
+    },
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    }
+   ]
+  },
+  {
+   "page": "page_19.html",
+   "style": "dl",
+   "sensitive": [
+    {
+     "value": "vikram.gupta41@example.com",
+     "type": "email"
+    },
+    {
+     "value": "786589305977",
+     "type": "account"
+    },
+    {
+     "value": "EXMP0423034",
+     "type": "ifsc"
+    },
+    {
+     "value": "29 Park Avenue, Pune 411001",
+     "type": "address"
+    },
+    {
+     "value": "4384 8856 8106 7098",
+     "type": "card"
+    },
+    {
+     "value": "APP-2026-041",
+     "type": "application_id"
+    },
+    {
+     "value": "YPBWW6607F",
+     "type": "pan"
+    }
+   ],
+   "keep": [
+    "2026-01-22",
+    "Approved",
+    "Savings",
+    "₹2,499.00",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    }
+   ]
+  },
+  {
+   "page": "page_20.html",
+   "style": "div",
+   "sensitive": [
+    {
+     "value": "BJZKY2503A",
+     "type": "pan"
+    },
+    {
+     "value": "732 Lake View Street, Nashik 422001",
+     "type": "address"
+    },
+    {
+     "value": "13421723349677",
+     "type": "account"
+    },
+    {
+     "value": "APP-2026-723",
+     "type": "application_id"
+    },
+    {
+     "value": "Rohan Iyer",
+     "type": "name"
+    },
+    {
+     "value": "EXMP0259149",
+     "type": "ifsc"
+    },
+    {
+     "value": "+91 82464 66863",
+     "type": "phone"
+    },
+    {
+     "value": "rohan.iyer34@example.org",
+     "type": "email"
+    },
+    {
+     "value": "4475 1688 6561 1415",
+     "type": "card"
+    },
+    {
+     "value": "Priya Reddy",
+     "type": "name",
+     "hard": "nominee"
+    }
+   ],
+   "keep": [
+    "Student Digital Skills Grant",
+    "2026-01-22",
+    "Savings",
+    "₹5,00,000.00",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "button",
+     "text": "Apply Filters"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    }
+   ]
+  },
+  {
+   "page": "page_21.html",
+   "style": "table",
+   "sensitive": [
+    {
+     "value": "Karthik Menon",
+     "type": "name"
+    },
+    {
+     "value": "0570304887",
+     "type": "account"
+    },
+    {
+     "value": "+91 68010 00520",
+     "type": "phone"
+    },
+    {
+     "value": "2091 8269 1833",
+     "type": "aadhaar"
+    },
+    {
+     "value": "karthik.menon26@mail.example.in",
+     "type": "email"
+    }
+   ],
+   "keep": [
+    "₹5,00,000.00",
+    "2026-01-22",
+    "Savings",
+    "Example Bank",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "button",
+     "text": "Apply Filters"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    }
+   ]
+  },
+  {
+   "page": "page_22.html",
+   "style": "div",
+   "sensitive": [
+    {
+     "value": "4755 4850 6635 1679",
+     "type": "card"
+    },
+    {
+     "value": "899 Lake View Street, Mumbai 400001",
+     "type": "address"
+    },
+    {
+     "value": "027186158129",
+     "type": "account"
+    },
+    {
+     "value": "karthik.verma9@mail.example.in",
+     "type": "email"
+    },
+    {
+     "value": "EXMP0947407",
+     "type": "ifsc"
+    },
+    {
+     "value": "6812977057",
+     "type": "phone"
+    },
+    {
+     "value": "Karthik Verma",
+     "type": "name"
+    },
+    {
+     "value": "26/09/1989",
+     "type": "dob"
+    },
+    {
+     "value": "VVDKR1379G",
+     "type": "pan"
+    },
+    {
+     "value": "Karthik Verma",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "Pune Main",
+    "₹5,00,000.00",
+    "₹2,499.00",
+    "2026-01-22",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    }
+   ]
+  },
+  {
+   "page": "page_23.html",
+   "style": "inline",
+   "sensitive": [
+    {
+     "value": "Arjun Bose",
+     "type": "name"
+    },
+    {
+     "value": "+91 74220 42628",
+     "type": "phone"
+    },
+    {
+     "value": "17/06/1997",
+     "type": "dob"
+    },
+    {
+     "value": "123 Station Lane, Kochi 682001",
+     "type": "address"
+    },
+    {
+     "value": "87041517801332",
+     "type": "account"
+    }
+   ],
+   "keep": [
+    "2.4.1",
+    "₹5,00,000.00",
+    "7.5% p.a.",
+    "Savings",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "button",
+     "text": "Apply Filters"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    }
+   ]
+  },
+  {
+   "page": "page_24.html",
+   "style": "cols",
+   "sensitive": [
+    {
+     "value": "9868015431",
+     "type": "account"
+    },
+    {
+     "value": "meera.iyer10@example.org",
+     "type": "email"
+    },
+    {
+     "value": "Meera Iyer",
+     "type": "name"
+    },
+    {
+     "value": "8100637171",
+     "type": "phone"
+    },
+    {
+     "value": "3243 4857 6995",
+     "type": "aadhaar"
+    },
+    {
+     "value": "21/05/1988",
+     "type": "dob"
+    }
+   ],
+   "keep": [
+    "Savings",
+    "Pune Main",
+    "7.5% p.a.",
+    "₹5,00,000.00",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "button",
+     "text": "Apply Filters"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    }
+   ]
+  },
+  {
+   "page": "page_25.html",
+   "style": "table",
+   "sensitive": [
+    {
+     "value": "4055 0496 5709 6056",
+     "type": "card"
+    },
+    {
+     "value": "09/12/1992",
+     "type": "dob"
+    },
+    {
+     "value": "9378776040",
+     "type": "phone"
+    },
+    {
+     "value": "4468 6325 5700",
+     "type": "aadhaar"
+    },
+    {
+     "value": "412974476604",
+     "type": "account"
+    },
+    {
+     "value": "263 Lake View Street, Nagpur 440001",
+     "type": "address"
+    },
+    {
+     "value": "ZQCHV4728G",
+     "type": "pan"
+    },
+    {
+     "value": "Divya Menon",
+     "type": "name"
+    },
+    {
+     "value": "EXMP0239365",
+     "type": "ifsc"
+    },
+    {
+     "value": "Divya Menon",
+     "type": "name",
+     "prose": true
+    },
+    {
+     "value": "Siddharth Kulkarni",
+     "type": "name",
+     "hard": "prose"
+    }
+   ],
+   "keep": [
+    "Student Digital Skills Grant",
+    "₹5,00,000.00",
+    "2.4.1",
+    "₹2,499.00",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Apply Filters"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    }
+   ]
+  },
+  {
+   "page": "page_26.html",
+   "style": "table",
+   "sensitive": [
+    {
+     "value": "APP-2026-149",
+     "type": "application_id"
+    },
+    {
+     "value": "9075689651",
+     "type": "phone"
+    },
+    {
+     "value": "Siddharth Deshmukh",
+     "type": "name"
+    },
+    {
+     "value": "6807 9585 3866",
+     "type": "aadhaar"
+    },
+    {
+     "value": "CDAAU9480K",
+     "type": "pan"
+    },
+    {
+     "value": "siddharth.deshmukh6@mail.example.in",
+     "type": "email"
+    },
+    {
+     "value": "20/09/1993",
+     "type": "dob"
+    },
+    {
+     "value": "220987695397",
+     "type": "account"
+    },
+    {
+     "value": "Siddharth Deshmukh",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "2026-01-22",
+    "2.4.1",
+    "Student Digital Skills Grant",
+    "Pune Main",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    }
+   ]
+  },
+  {
+   "page": "page_27.html",
+   "style": "div",
+   "sensitive": [
+    {
+     "value": "10/03/1995",
+     "type": "dob"
+    },
+    {
+     "value": "APP-2026-503",
+     "type": "application_id"
+    },
+    {
+     "value": "360 Lake View Street, Pune 411001",
+     "type": "address"
+    },
+    {
+     "value": "4294 7150 2952 9203",
+     "type": "card"
+    },
+    {
+     "value": "Karthik Bose",
+     "type": "name"
+    },
+    {
+     "value": "EXMP0403994",
+     "type": "ifsc"
+    },
+    {
+     "value": "FQCHS4088B",
+     "type": "pan"
+    },
+    {
+     "value": "karthik.bose18@mail.example.in",
+     "type": "email"
+    },
+    {
+     "value": "Karthik Bose",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "₹5,00,000.00",
+    "Approved",
+    "2.4.1",
+    "7.5% p.a.",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Apply Filters"
+    },
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    }
+   ]
+  },
+  {
+   "page": "page_28.html",
+   "style": "table",
+   "sensitive": [
+    {
+     "value": "Divya Patil",
+     "type": "name"
+    },
+    {
+     "value": "9096584500",
+     "type": "phone"
+    },
+    {
+     "value": "VLWYV7896B",
+     "type": "pan"
+    },
+    {
+     "value": "5604083781",
+     "type": "account"
+    },
+    {
+     "value": "4010 1954 4461 5155",
+     "type": "card"
+    }
+   ],
+   "keep": [
+    "2.4.1",
+    "Example Bank",
+    "Savings",
+    "Student Digital Skills Grant",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    }
+   ]
+  },
+  {
+   "page": "page_29.html",
+   "style": "cols",
+   "sensitive": [
+    {
+     "value": "7373369795",
+     "type": "phone"
+    },
+    {
+     "value": "3685 5727 3312",
+     "type": "aadhaar"
+    },
+    {
+     "value": "26/06/1985",
+     "type": "dob"
+    },
+    {
+     "value": "meera.patil35@example.org",
+     "type": "email"
+    },
+    {
+     "value": "MPZEL3969J",
+     "type": "pan"
+    },
+    {
+     "value": "EXMP0430113",
+     "type": "ifsc"
+    },
+    {
+     "value": "4456 1863 4056 1354",
+     "type": "card"
+    },
+    {
+     "value": "Meera Patil",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "2.4.1",
+    "Savings",
+    "Student Digital Skills Grant",
+    "₹2,499.00",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "button",
+     "text": "Apply Filters"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    }
+   ]
+  },
+  {
+   "page": "page_30.html",
+   "style": "inline",
+   "sensitive": [
+    {
+     "value": "ananya.gupta30@example.com",
+     "type": "email"
+    },
+    {
+     "value": "4220 2848 5258 0253",
+     "type": "card"
+    },
+    {
+     "value": "5406 6144 7934",
+     "type": "aadhaar"
+    },
+    {
+     "value": "21/08/2004",
+     "type": "dob"
+    },
+    {
+     "value": "54618075678172",
+     "type": "account"
+    },
+    {
+     "value": "9918044186",
+     "type": "phone"
+    },
+    {
+     "value": "APP-2026-913",
+     "type": "application_id"
+    },
+    {
+     "value": "999 Park Avenue, Mumbai 400001",
+     "type": "address"
+    },
+    {
+     "value": "YJYNN5850B",
+     "type": "pan"
+    },
+    {
+     "value": "Ananya Gupta",
+     "type": "name",
+     "prose": true
+    },
+    {
+     "value": "Siddharth Bose",
+     "type": "name",
+     "hard": "prose"
+    }
+   ],
+   "keep": [
+    "2026-01-22",
+    "₹2,499.00",
+    "7.5% p.a.",
+    "Example Bank",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    }
+   ]
+  },
+  {
+   "page": "page_31.html",
+   "style": "cols",
+   "sensitive": [
+    {
+     "value": "28/07/2003",
+     "type": "dob"
+    },
+    {
+     "value": "267 Station Lane, Mumbai 400001",
+     "type": "address"
+    },
+    {
+     "value": "APP-2026-963",
+     "type": "application_id"
+    },
+    {
+     "value": "EXMP0937062",
+     "type": "ifsc"
+    },
+    {
+     "value": "neha.bose63@example.org",
+     "type": "email"
+    },
+    {
+     "value": "4807 7785 4579 1012",
+     "type": "card"
+    }
+   ],
+   "keep": [
+    "Student Digital Skills Grant",
+    "7.5% p.a.",
+    "Savings",
+    "₹2,499.00",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Apply Filters"
+    },
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    }
+   ]
+  },
+  {
+   "page": "page_32.html",
+   "style": "div",
+   "sensitive": [
+    {
+     "value": "5124 7067 3226",
+     "type": "aadhaar"
+    },
+    {
+     "value": "EXMP0076826",
+     "type": "ifsc"
+    },
+    {
+     "value": "+91 93667 47147",
+     "type": "phone"
+    },
+    {
+     "value": "4143 3591 8381 4953",
+     "type": "card"
+    },
+    {
+     "value": "Neha Menon",
+     "type": "name"
+    },
+    {
+     "value": "neha.menon99@mail.example.in",
+     "type": "email"
+    },
+    {
+     "value": "APP-2026-817",
+     "type": "application_id"
+    },
+    {
+     "value": "PJFSF6064D",
+     "type": "pan"
+    },
+    {
+     "value": "16/05/1994",
+     "type": "dob"
+    }
+   ],
+   "keep": [
+    "₹5,00,000.00",
+    "7.5% p.a.",
+    "Savings",
+    "Approved",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "button",
+     "text": "Apply Filters"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    }
+   ]
+  },
+  {
+   "page": "page_33.html",
+   "style": "dl",
+   "sensitive": [
+    {
+     "value": "08/09/1993",
+     "type": "dob"
+    },
+    {
+     "value": "Sneha Menon",
+     "type": "name"
+    },
+    {
+     "value": "8594 8037 1322",
+     "type": "aadhaar"
+    },
+    {
+     "value": "sneha.menon42@example.org",
+     "type": "email"
+    },
+    {
+     "value": "0071465557",
+     "type": "account"
+    },
+    {
+     "value": "4830 2265 4908 9828",
+     "type": "card"
+    },
+    {
+     "value": "FYFGJ9545J",
+     "type": "pan"
+    },
+    {
+     "value": "Sneha Menon",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "Pune Main",
+    "7.5% p.a.",
+    "Student Digital Skills Grant",
+    "2026-01-22",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Apply Filters"
+    },
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    }
+   ]
+  },
+  {
+   "page": "page_34.html",
+   "style": "dl",
+   "sensitive": [
+    {
+     "value": "Neha Reddy",
+     "type": "name"
+    },
+    {
+     "value": "02/12/2000",
+     "type": "dob"
+    },
+    {
+     "value": "EXMP0201529",
+     "type": "ifsc"
+    },
+    {
+     "value": "3703 7665 2494",
+     "type": "aadhaar"
+    },
+    {
+     "value": "neha.reddy81@example.com",
+     "type": "email"
+    },
+    {
+     "value": "708 Station Lane, Nagpur 440001",
+     "type": "address"
+    },
+    {
+     "value": "SPBLZ2860J",
+     "type": "pan"
+    },
+    {
+     "value": "4376 1253 9825 7538",
+     "type": "card"
+    },
+    {
+     "value": "APP-2026-466",
+     "type": "application_id"
+    },
+    {
+     "value": "Neha Reddy",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "Student Digital Skills Grant",
+    "7.5% p.a.",
+    "Example Bank",
+    "Pune Main",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    }
+   ]
+  },
+  {
+   "page": "page_35.html",
+   "style": "div",
+   "sensitive": [
+    {
+     "value": "16/07/1994",
+     "type": "dob"
+    },
+    {
+     "value": "4091 3175 7060 1690",
+     "type": "card"
+    },
+    {
+     "value": "APP-2026-388",
+     "type": "application_id"
+    },
+    {
+     "value": "458 Park Avenue, Mumbai 400001",
+     "type": "address"
+    },
+    {
+     "value": "EXMP0949143",
+     "type": "ifsc"
+    },
+    {
+     "value": "3521 7489 6545",
+     "type": "aadhaar"
+    },
+    {
+     "value": "058188589383",
+     "type": "account"
+    },
+    {
+     "value": "Meera Sharma",
+     "type": "name"
+    },
+    {
+     "value": "K8312268",
+     "type": "passport",
+     "hard": "passport"
+    }
+   ],
+   "keep": [
+    "₹5,00,000.00",
+    "Approved",
+    "Pune Main",
+    "Example Bank",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    }
+   ]
+  },
+  {
+   "page": "page_36.html",
+   "style": "table",
+   "sensitive": [
+    {
+     "value": "4153 2168 7078 4435",
+     "type": "card"
+    },
+    {
+     "value": "FBLKA6077K",
+     "type": "pan"
+    },
+    {
+     "value": "neha.menon55@mail.example.in",
+     "type": "email"
+    },
+    {
+     "value": "7754741547",
+     "type": "phone"
+    },
+    {
+     "value": "5337 5639 4819",
+     "type": "aadhaar"
+    },
+    {
+     "value": "399 Lake View Street, Pune 411001",
+     "type": "address"
+    },
+    {
+     "value": "APP-2026-836",
+     "type": "application_id"
+    },
+    {
+     "value": "EXMP0476379",
+     "type": "ifsc"
+    }
+   ],
+   "keep": [
+    "₹5,00,000.00",
+    "7.5% p.a.",
+    "Savings",
+    "Pune Main",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    }
+   ]
+  },
+  {
+   "page": "page_37.html",
+   "style": "cols",
+   "sensitive": [
+    {
+     "value": "UYQKV7149C",
+     "type": "pan"
+    },
+    {
+     "value": "Rohan Sharma",
+     "type": "name"
+    },
+    {
+     "value": "489198409937",
+     "type": "account"
+    },
+    {
+     "value": "496 Lake View Street, Pune 411001",
+     "type": "address"
+    },
+    {
+     "value": "APP-2026-829",
+     "type": "application_id"
+    },
+    {
+     "value": "4245 9004 7184 8075",
+     "type": "card"
+    },
+    {
+     "value": "7662797367",
+     "type": "phone"
+    },
+    {
+     "value": "Rohan Sharma",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "Example Bank",
+    "7.5% p.a.",
+    "2.4.1",
+    "Approved",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "button",
+     "text": "Logout"
+    },
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    }
+   ]
+  },
+  {
+   "page": "page_38.html",
+   "style": "inline",
+   "sensitive": [
+    {
+     "value": "ananya.reddy51@example.com",
+     "type": "email"
+    },
+    {
+     "value": "9504 8994 2738",
+     "type": "aadhaar"
+    },
+    {
+     "value": "APP-2026-202",
+     "type": "application_id"
+    },
+    {
+     "value": "979 Lake View Street, Nagpur 440001",
+     "type": "address"
+    },
+    {
+     "value": "24921707887454",
+     "type": "account"
+    },
+    {
+     "value": "10/04/2002",
+     "type": "dob"
+    },
+    {
+     "value": "Ananya Reddy",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "Savings",
+    "₹5,00,000.00",
+    "Example Bank",
+    "Approved",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "button",
+     "text": "Contact Support"
+    },
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "link",
+     "text": "Home"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Card Offers"
+    }
+   ]
+  },
+  {
+   "page": "page_39.html",
+   "style": "table",
+   "sensitive": [
+    {
+     "value": "4628 7204 5331 6181",
+     "type": "card"
+    },
+    {
+     "value": "9757 6033 9301",
+     "type": "aadhaar"
+    },
+    {
+     "value": "Siddharth Kulkarni",
+     "type": "name"
+    },
+    {
+     "value": "APP-2026-567",
+     "type": "application_id"
+    },
+    {
+     "value": "EXMP0914371",
+     "type": "ifsc"
+    },
+    {
+     "value": "siddharth.kulkarni69@example.org",
+     "type": "email"
+    },
+    {
+     "value": "Siddharth Kulkarni",
+     "type": "name",
+     "prose": true
+    }
+   ],
+   "keep": [
+    "Approved",
+    "₹5,00,000.00",
+    "₹2,499.00",
+    "Pune Main",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "button",
+     "text": "Renew Now"
+    },
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    }
+   ]
+  },
+  {
+   "page": "page_40.html",
+   "style": "table",
+   "sensitive": [
+    {
+     "value": "4928 5100 2949 2443",
+     "type": "card"
+    },
+    {
+     "value": "EXMP0126608",
+     "type": "ifsc"
+    },
+    {
+     "value": "7507014657",
+     "type": "phone"
+    },
+    {
+     "value": "rohan.menon26@mail.example.in",
+     "type": "email"
+    },
+    {
+     "value": "Rohan Menon",
+     "type": "name"
+    },
+    {
+     "value": "4620325883",
+     "type": "account"
+    },
+    {
+     "value": "04/05/1992",
+     "type": "dob"
+    },
+    {
+     "value": "Rohan Menon",
+     "type": "name",
+     "prose": true
+    },
+    {
+     "value": "Meera Gupta",
+     "type": "name",
+     "hard": "prose"
+    }
+   ],
+   "keep": [
+    "2.4.1",
+    "₹5,00,000.00",
+    "Savings",
+    "Student Digital Skills Grant",
+    "Card offers for you",
+    "1800-123-4567",
+    "₹1,25,000.00",
+    "2026-03-15"
+   ],
+   "relevant": [
+    {
+     "type": "button",
+     "text": "Download"
+    },
+    {
+     "type": "button",
+     "text": "Transaction History"
+    },
+    {
+     "type": "button",
+     "text": "View Details"
+    },
+    {
+     "type": "link",
+     "text": "Support"
+    },
+    {
+     "type": "link",
+     "text": "Documents"
+    },
+    {
+     "type": "link",
+     "text": "My Applications"
+    }
+   ]
+  }
+ ],
+ "images": [
+  {
+   "image": "img_01.png",
+   "pii": [
+    {
+     "value": "meera.nair10@example.com",
+     "type": "email"
+    },
+    {
+     "value": "Meera Nair",
+     "type": "name"
+    },
+    {
+     "value": "6687285401",
+     "type": "phone"
+    },
+    {
+     "value": "4943 9491 1907 0142",
+     "type": "card"
+    },
+    {
+     "value": "18/05/2003",
+     "type": "dob"
+    }
+   ],
+   "keep_lines": [
+    "Issued by: Demo Authority",
+    "Valid until 2030-12-31"
+   ]
+  },
+  {
+   "image": "img_02.png",
+   "pii": [
+    {
+     "value": "4307 0015 3791 0176",
+     "type": "card"
+    },
+    {
+     "value": "6965200346",
+     "type": "phone"
+    },
+    {
+     "value": "4034 1534 8539",
+     "type": "aadhaar"
+    },
+    {
+     "value": "16/02/1999",
+     "type": "dob"
+    }
+   ],
+   "keep_lines": [
+    "Issued by: Demo Authority",
+    "Status: Verified"
+   ]
+  },
+  {
+   "image": "img_03.png",
+   "pii": [
+    {
+     "value": "6390026440",
+     "type": "phone"
+    },
+    {
+     "value": "02/09/1992",
+     "type": "dob"
+    },
+    {
+     "value": "3869 6405 4381",
+     "type": "aadhaar"
+    },
+    {
+     "value": "divya.iyer51@example.com",
+     "type": "email"
+    }
+   ],
+   "keep_lines": [
+    "Valid until 2030-12-31",
+    "Issued by: Demo Authority"
+   ]
+  },
+  {
+   "image": "img_04.png",
+   "pii": [
+    {
+     "value": "+91 79440 51438",
+     "type": "phone"
+    },
+    {
+     "value": "Ishita Verma",
+     "type": "name"
+    },
+    {
+     "value": "HKMKP3464G",
+     "type": "pan"
+    },
+    {
+     "value": "4857 2130 5161 6766",
+     "type": "card"
+    }
+   ],
+   "keep_lines": [
+    "Status: Verified",
+    "Issued by: Demo Authority"
+   ]
+  },
+  {
+   "image": "img_05.png",
+   "pii": [
+    {
+     "value": "arjun.deshmukh99@mail.example.in",
+     "type": "email"
+    },
+    {
+     "value": "4491 8847 8552 2850",
+     "type": "card"
+    },
+    {
+     "value": "07/10/1995",
+     "type": "dob"
+    },
+    {
+     "value": "4755 7402 1688",
+     "type": "aadhaar"
+    },
+    {
+     "value": "LWRCB5304C",
+     "type": "pan"
+    }
+   ],
+   "keep_lines": [
+    "Status: Verified",
+    "Issued by: Demo Authority"
+   ]
+  },
+  {
+   "image": "img_06.png",
+   "pii": [
+    {
+     "value": "4386 1625 8966 4956",
+     "type": "card"
+    },
+    {
+     "value": "+91 62775 21621",
+     "type": "phone"
+    },
+    {
+     "value": "6613 5602 4581",
+     "type": "aadhaar"
+    }
+   ],
+   "keep_lines": [
+    "Status: Verified",
+    "Scheme: Student Grant"
+   ]
+  },
+  {
+   "image": "img_07.png",
+   "pii": [
+    {
+     "value": "9800641735",
+     "type": "phone"
+    },
+    {
+     "value": "4751 4293 0924 1085",
+     "type": "card"
+    },
+    {
+     "value": "6852 7395 9652",
+     "type": "aadhaar"
+    },
+    {
+     "value": "LYEJU1444A",
+     "type": "pan"
+    }
+   ],
+   "keep_lines": [
+    "Issued by: Demo Authority",
+    "Status: Verified"
+   ]
+  },
+  {
+   "image": "img_08.png",
+   "pii": [
+    {
+     "value": "TRVWA2233B",
+     "type": "pan"
+    },
+    {
+     "value": "4544 2330 4060",
+     "type": "aadhaar"
+    },
+    {
+     "value": "7184531453",
+     "type": "phone"
+    },
+    {
+     "value": "Ishita Menon",
+     "type": "name"
+    },
+    {
+     "value": "4251 5789 7948 6407",
+     "type": "card"
+    }
+   ],
+   "keep_lines": [
+    "Scheme: Student Grant",
+    "Valid until 2030-12-31"
+   ]
+  },
+  {
+   "image": "img_09.png",
+   "pii": [
+    {
+     "value": "4986 0401 4861 2415",
+     "type": "card"
+    },
+    {
+     "value": "2546 6341 7618",
+     "type": "aadhaar"
+    },
+    {
+     "value": "Ananya Sharma",
+     "type": "name"
+    },
+    {
+     "value": "ananya.sharma43@mail.example.in",
+     "type": "email"
+    },
+    {
+     "value": "25/08/1993",
+     "type": "dob"
+    }
+   ],
+   "keep_lines": [
+    "Scheme: Student Grant",
+    "Issued by: Demo Authority"
+   ]
+  },
+  {
+   "image": "img_10.png",
+   "pii": [
+    {
+     "value": "YLARH3857K",
+     "type": "pan"
+    },
+    {
+     "value": "4989 7432 9690",
+     "type": "aadhaar"
+    },
+    {
+     "value": "priya.sharma54@example.org",
+     "type": "email"
+    },
+    {
+     "value": "Priya Sharma",
+     "type": "name"
+    },
+    {
+     "value": "4239 1131 7090 5745",
+     "type": "card"
+    }
+   ],
+   "keep_lines": [
+    "Valid until 2030-12-31",
+    "Issued by: Demo Authority"
+   ]
+  },
+  {
+   "image": "img_11.png",
+   "pii": [
+    {
+     "value": "4257 9081 7362 1844",
+     "type": "card"
+    },
+    {
+     "value": "PMDFY4014K",
+     "type": "pan"
+    },
+    {
+     "value": "Vikram Sharma",
+     "type": "name"
+    },
+    {
+     "value": "6631 3773 2172",
+     "type": "aadhaar"
+    },
+    {
+     "value": "8418735928",
+     "type": "phone"
+    }
+   ],
+   "keep_lines": [
+    "Status: Verified",
+    "Valid until 2030-12-31"
+   ]
+  },
+  {
+   "image": "img_12.png",
+   "pii": [
+    {
+     "value": "Sneha Deshmukh",
+     "type": "name"
+    },
+    {
+     "value": "sneha.deshmukh75@example.org",
+     "type": "email"
+    },
+    {
+     "value": "+91 80543 44253",
+     "type": "phone"
+    },
+    {
+     "value": "14/11/1995",
+     "type": "dob"
+    },
+    {
+     "value": "4014 2786 3311",
+     "type": "aadhaar"
+    }
+   ],
+   "keep_lines": [
+    "Valid until 2030-12-31",
+    "Status: Verified"
+   ]
+  }
+ ]
+}
